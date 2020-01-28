@@ -14,6 +14,8 @@
     "typeRoots": ["node_modules/@types"],
     "lib": ["es2017", "dom"],
     "paths": {
+      "core-js/es/reflect": ["../node_modules/core-js/proposals/reflect-metadata"],
+      "core-js/es/": ["./node_modules/core-js/es/"],
       "@fulls1z3/shared/store": ["libs/shared/store/src/index.ts"],
       "@fulls1z3/shared/store-account": ["libs/shared/store-account/src/index.ts"],
       "@fulls1z3/shared/store-air-universal": ["libs/shared/store-air-universal/src/index.ts"],
